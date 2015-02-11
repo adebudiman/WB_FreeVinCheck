@@ -1,0 +1,23 @@
+/* search result page css */
+
+.container.top-header {padding:0px 0px;}
+.container.top-header .navbar {margin-bottom:0px;}
+.content-wrapper .content #accordion {margin:30px 0px;}
+.tag-lists {padding:15px;}
+.tag-lists a {clear:both;display:block;padding:3px 0px;}
+.tag-lists a span.badge {float:right;}
+h2.title-cstm {margin-bottom:15px;}
+.content-wrapper .alert {padding:10px;margin-bottom:10px;}
+.panel-title span.glyphicon {float:right;opacity:0.3}
+.panel-title span.glyphicon:hover {float:right;opacity:0.6}
+.tc {text-align:center;}
+.tc h3 {margin-top:0px;}
+.top-list-info {width:100%;padding:25px 0px;}
+.title-gnbtm {margin-bottom:5px;margin-top:0px;}
+.row.brd-top {border-top:1px solid #eee;padding:20px 0px;}
+.pagination-wrapper {width:100%;border-top:1px solid #eee;}
+.content.top-pd {padding-top:25px;}
+.alert a {color:#777;}
+.alert a:hover {color:#444;}
+.content .alert.alert-warning {margin:20px 0px;}
+.well h3 {margin-top:0px;}

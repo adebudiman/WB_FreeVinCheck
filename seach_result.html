@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>vinfreecheck.com</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/search_result.css">
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+        
+        <!-- External Font -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+        
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>
+        
+        <div class="container top-header">
+            <div class="navbar navbar-default pos-rel" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="img/logo.png" width="" height=""/></a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="signup-link"><a href="./">Home</a></li>
+                        <li class="signup-link"><a href="./">Fast Approved Auto Loan</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </div>
+        
+        <div class="container content-wrapper">
+            <div class="col-lg-3 content top-pd">
+                <div class="well">
+                    <h3>New Search</h3>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Make Model</label>
+                        <input type="text" class="form-control" id="" placeholder="Vehicle Make / Model">
+                    </div>
+                    <button type="submit" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-search"></span> Search</button>
+                </div>
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div id="" class="panel-collapse">
+                            <div class="panel-body">
+                                <h2 class="panel-title title-cstm">
+                                    <strong>Filtered Search</strong>
+                                </h2>
+                                <div class="alert alert-success">
+                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                    <strong>Vehicle Condition</strong>
+                                    <p>Used</p>
+                                </div>
+                                <div class="alert alert-success">
+                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                    <strong>Body Style</strong>
+                                    <p>Sedan</p>
+                                </div>
+                                <button type="submit" class="btn btn-sm btn-default">Clear All</button>
+                            </div>
+                        </div>
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#price">
+                                    Price <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="price" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <form role="form">
+                                  <div class="form-group">
+                                    <label for="exampleInputEmail1">From</label>
+                                    <input type="email" class="form-control" id="" placeholder="$ 0.00">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="exampleInputPassword1">To</label>
+                                    <input type="text" class="form-control" id="" placeholder="$ 0.00">
+                                  </div>
+                                  <button type="submit" class="btn btn-sm btn-default">Add Filter</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#Miliage">
+                                    Miliage <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="Miliage" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <form role="form">
+                                  <div class="form-group">
+                                    <label for="exampleInputEmail1">From</label>
+                                    <input type="email" class="form-control" id="" placeholder="$ 0.00">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="exampleInputPassword1">To</label>
+                                    <input type="text" class="form-control" id="" placeholder="$ 0.00">
+                                  </div>
+                                  <button type="submit" class="btn btn-sm btn-default">Add Filter</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#Make">
+                                    Make <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="Make" class="panel-collapse collapse">
+                            <div class="tag-lists">
+                                <a href="#">Ford <span class="badge label-success">42</span></a>
+                                <a href="#">Toyota <span class="badge">142</span></a>
+                                <a href="#">Nissan <span class="badge">408</span></a>
+                                <a href="#">Chevrolet <span class="badge">42</span></a>
+                                <a href="#">BMW <span class="badge">38</span></a>
+                                <a href="#">Honda <span class="badge">298</span></a>
+                                <a href="#">Dodge <span class="badge">109</span></a>
+                                <a href="#">Chrisler <span class="badge">46</span></a>
+                                <a href="#">Mercedes-Benz <span class="badge">376</span></a>
+                                <a href="#">Volskwagen <span class="badge">398</span></a>
+                                <a href="#">Hyundai <span class="badge">798</span></a>
+                                <a href="#">Lexus <span class="badge">897</span></a>
+                            </div>
+                        </div>
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#year">
+                                    Year <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="year" class="panel-collapse collapse">
+                            <div class="tag-lists">
+                                <a href="#">1949 <span class="badge">42</span></a>
+                                <a href="#">1956 <span class="badge">142</span></a>
+                                <a href="#">1960 <span class="badge">408</span></a>
+                                <a href="#">1961 <span class="badge">42</span></a>
+                                <a href="#">1962 <span class="badge">38</span></a>
+                                <a href="#">1963 <span class="badge">298</span></a>
+                                <a href="#">1971 <span class="badge">109</span></a>
+                                <a href="#">1978 <span class="badge">46</span></a>
+                                <a href="#">1982 <span class="badge">376</span></a>
+                                <a href="#">1984 <span class="badge">398</span></a>
+                                <a href="#">1992 <span class="badge">798</span></a>
+                                <a href="#">1994 <span class="badge">897</span></a>
+                            </div>
+                        </div>
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#Transmission">
+                                    Transmission <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="Transmission" class="panel-collapse collapse">
+                            <div class="tag-lists">
+                                <a href="#">Automatic <span class="badge">42</span></a>
+                                <a href="#">Manual <span class="badge">142</span></a>
+                            </div>
+                        </div>
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#Fuel">
+                                    Fuel <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="Fuel" class="panel-collapse collapse">
+                            <div class="tag-lists">
+                                <a href="#">Alternative <span class="badge">42</span></a>
+                                <a href="#">Diesel <span class="badge">142</span></a>
+                                <a href="#">Flexible-Fuel <span class="badge">142</span></a>
+                                <a href="#">Gasoline <span class="badge">142</span></a>
+                                <a href="#">Hybrid <span class="badge">142</span></a>
+                            </div>
+                        </div>
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#Engine">
+                                    Engine <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="Engine" class="panel-collapse collapse">
+                            <div class="tag-lists">
+                                <a href="#">10 Cyl <span class="badge">42</span></a>
+                                <a href="#">12 Cyl <span class="badge">142</span></a>
+                                <a href="#">4 Cyl <span class="badge">142</span></a>
+                                <a href="#">5 Cyl <span class="badge">142</span></a>
+                                <a href="#">8 Cyl <span class="badge">142</span></a>
+                                <a href="#">Hybrid <span class="badge">142</span></a>
+                            </div>
+                        </div>
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#ExteriorColor">
+                                    Exterior Color <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="ExteriorColor" class="panel-collapse collapse">
+                            <div class="tag-lists">
+                                <a href="#">Beige <span class="badge">42</span></a>
+                                <a href="#">Black <span class="badge">142</span></a>
+                                <a href="#">Blue <span class="badge">142</span></a>
+                                <a href="#">Bronze <span class="badge">142</span></a>
+                                <a href="#">Brown <span class="badge">142</span></a>
+                                <a href="#">Gold <span class="badge">142</span></a>
+                            </div>
+                        </div>
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#InteriorColor">
+                                    Interior Color <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="InteriorColor" class="panel-collapse collapse">
+                            <div class="tag-lists">
+                                <a href="#">Beige <span class="badge">42</span></a>
+                                <a href="#">Black <span class="badge">142</span></a>
+                                <a href="#">Blue <span class="badge">142</span></a>
+                                <a href="#">Bronze <span class="badge">142</span></a>
+                                <a href="#">Brown <span class="badge">142</span></a>
+                                <a href="#">Gold <span class="badge">142</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 content">
+                <div class="top-list-info">
+                    <small>Displaying 1 - 15 of 4098 listings</small>
+                    <div class="pull-right">
+                        <small>sort by : </small>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+                                Relevance <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row brd-top">
+                    <div class="col-lg-3">
+                        <a href="#"><img src="img/car.png" alt="tag" class="img-rounded" width="100%"></a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a href="#"><h4 class="title-gnbtm"><strong>Used Hyundai Sonata 2012</strong></h4></a>
+                        <p>Silver, Sedan, Hybrid, Automatic, Hybrid, 13N3331A </p>
+                        <small>Hayward Nissan <br/><strong><span class="glyphicon glyphicon-phone-alt"></span> 8889007920</strong></small>
+                        
+                    </div>
+                    <div class="col-lg-3 tc">
+                        <h3><span class="label label-warning">$ 18,995</span></h3>
+                        <small><strong>14402 mi</strong></small>
+                    </div>
+                </div>
+                <div class="row brd-top">
+                    <div class="col-lg-3">
+                        <a href="#"><img src="img/car.png" alt="tag" class="img-rounded" width="100%"></a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a href="#"><h4 class="title-gnbtm"><strong>Used Hyundai Sonata 2012</strong></h4></a>
+                        <p>Silver, Sedan, Hybrid, Automatic, Hybrid, 13N3331A </p>
+                        <small>Hayward Nissan <br/><strong><span class="glyphicon glyphicon-phone-alt"></span> 8889007920</strong></small>
+                        
+                    </div>
+                    <div class="col-lg-3 tc">
+                        <h3><span class="label label-warning">$ 18,995</span></h3>
+                        <small><strong>14402 mi</strong></small>
+                    </div>
+                </div>
+                <div class="row brd-top">
+                    <div class="col-lg-3">
+                        <a href="#"><img src="img/car.png" alt="tag" class="img-rounded" width="100%"></a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a href="#"><h4 class="title-gnbtm"><strong>Used Hyundai Sonata 2012</strong></h4></a>
+                        <p>Silver, Sedan, Hybrid, Automatic, Hybrid, 13N3331A </p>
+                        <small>Hayward Nissan <br/><strong><span class="glyphicon glyphicon-phone-alt"></span> 8889007920</strong></small>
+                        
+                    </div>
+                    <div class="col-lg-3 tc">
+                        <h3><span class="label label-warning">$ 18,995</span></h3>
+                        <small><strong>14402 mi</strong></small>
+                    </div>
+                </div>
+                <div class="row brd-top">
+                    <div class="col-lg-3">
+                        <a href="#"><img src="img/car.png" alt="tag" class="img-rounded" width="100%"></a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a href="#"><h4 class="title-gnbtm"><strong>Used Hyundai Sonata 2012</strong></h4></a>
+                        <p>Silver, Sedan, Hybrid, Automatic, Hybrid, 13N3331A </p>
+                        <small>Hayward Nissan <br/><strong><span class="glyphicon glyphicon-phone-alt"></span> 8889007920</strong></small>
+                        
+                    </div>
+                    <div class="col-lg-3 tc">
+                        <h3><span class="label label-warning">$ 18,995</span></h3>
+                        <small><strong>14402 mi</strong></small>
+                    </div>
+                </div>
+                <div class="row brd-top">
+                    <div class="col-lg-3">
+                        <a href="#"><img src="img/car.png" alt="tag" class="img-rounded" width="100%"></a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a href="#"><h4 class="title-gnbtm"><strong>Used Hyundai Sonata 2012</strong></h4></a>
+                        <p>Silver, Sedan, Hybrid, Automatic, Hybrid, 13N3331A </p>
+                        <small>Hayward Nissan <br/><strong><span class="glyphicon glyphicon-phone-alt"></span> 8889007920</strong></small>
+                        
+                    </div>
+                    <div class="col-lg-3 tc">
+                        <h3><span class="label label-warning">$ 18,995</span></h3>
+                        <small><strong>14402 mi</strong></small>
+                    </div>
+                </div>
+                <div class="pagination-wrapper tc">
+                    <ul class="pagination">
+                        <li><a href="#">&laquo;</a></li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">&raquo;</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-lg-3 content top-pd">
+                <a href="#"><img src="img/sample-ad.png" width="100%" height="" class="img-rounded"/></a>
+                <div class="alert alert-warning">
+                    <h4><strong>New/Used Cars for Sale CA</strong></h4>
+                    <small>VinFreeCheck.com is an advertising supported site. To search for free full vin report you will be required to sign up to our site and view some of our advertisers promotions. <strong>$ 7876.00</strong></small>
+                </div>
+                <div class="alert alert-warning">
+                    <h4><strong>Price Analysis</strong></h4>
+                    <small>VinFreeCheck.com is an advertising supported site. To search for free full vin report you will be required to sign up to our site and view some of our advertisers promotions. <a href="#">more</a></small>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="container tc-footer">
+                <div class="socnet">
+                    <a href="#"><img src="img/fb.png" width="" height=""/></a>
+                    <a href="#"><img src="img/tw.png" width="" height=""/></a>
+                    <a href="#"><img src="img/in.png" width="" height=""/></a>
+                    <a href="#"><img src="img/yt.png" width="" height=""/></a>
+                </div>
+                <p><b>&copy; VinFreeCHeck.com, 2013. All rights reserved.</b></p>
+                <small>
+                    VinFreeCheck.com is an advertising supported site. To search for free full vin report you will be required to sign up to our site and view some of our advertisers promotions. <br/>
+You are not required to signup for or buy any of our advertiser’s products. You also may not find the specific free full vin report you are looking for. Edmunds.com Visitor <br/>
+Vehicle Ratings and Reviews are the property of Edmunds.com, and may not be reproduced or distributed without the consent of Edmunds.com. Edmunds® is a trademark of <br/>
+Edmunds.com, Inc. Edmunds.com, Inc. is not affiliated with this website or app.<br/>
+                </small>
+                <div class="footer-wrapper">
+                    <div class="pull-left">
+                        <a href="#"><img src="img/logosmall.png" width="" height=""/></a>
+                    </div>
+                    <ul class="footer-menu">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">News & Articles</a></li>
+                        <li><a href="#">Vehicles List</a></li>
+                        <li><a href="#">Vehicles Reviews</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Police</a></li>
+                        <li><a href="#">Site Map</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</html>

@@ -1,0 +1,12 @@
+/* Detail page css */
+#galleria{height:400px}
+h2.title-detail {margin-bottom:20px;}
+h2.title-detail span.badge{margin-bottom:20px;}
+.galleria-image img {width:100% !important;text-align:center;left:0 !important;}
+table.table.tbl-color td {color:#468847}
+.bs-callout-warning {background-color: #FAF8F0;border-color: #FAEBCC;}
+.bs-callout { border-left: 3px solid #FAEBCC;margin: 20px 0;padding: 20px;}
+.bs-callout .form-group {margin-bottom:5px;}
+.bs-callout .form-group textarea {height:100px;}
+.bs-callout form button {width:100%;margin-top:10px;}
+h2.title-detail span.label {margin-top:10px;float:right;}
